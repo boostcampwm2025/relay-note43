@@ -198,7 +198,9 @@ AI가 추천해준 주제를 가지고 **아이스브레이킹 성공!**
 
 <img src="https://github.com/boostcampwm2025/relay-note43/blob/main/image.png?raw=true" width="500">
 
-• 가상 메모리의 페이징 기법에 관해서 만든 만화이다.
+<img src="https://github.com/boostcampwm2025/relay-note43/blob/main/page.png?raw=true" width="500">
+
+• 가상 메모리의 페이징 기법에 관해서 만든 만화들 이다.
 
 </details>
 
