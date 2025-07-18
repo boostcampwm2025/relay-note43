@@ -224,18 +224,16 @@ AI가 추천해준 주제를 가지고 **아이스브레이킹 성공!**
 
 <details>
 <summary>예시</summary>
-✅ **1. 질문**
+✅ 1. 질문
 
 **iOS에서 메모리 사용 현황을 분석하고 누수를 확인하기 위한 주요 도구는 무엇인가요?**
 
 **답변**: iOS에서는 메모리 분석을 위해 Instruments의 다양한 도구를 사용합니다.
-
 - **Allocations**는 힙에 할당된 객체의 크기, 생명주기, 타입 등을 추적할 수 있고,
 - **Leaks**는 자동으로 누수된 객체를 탐지합니다.
 - **Memory Graph Debugger**는 객체 간 참조 관계를 시각적으로 분석할 수 있습니다.또한, **Malloc Stack Logging**을 활성화하면 객체가 할당된 호출 스택까지 추적할 수 있어 누수 분석에 유리합니다.
 
 **예상 꼬리질문**
-
 - Instruments에서 'Zombie Object'는 어떤 의미인가요?
 - Malloc Stack Logging은 어떻게 활성화하나요? 실전에서 사용 시 주의점은?
 
@@ -244,13 +242,11 @@ AI가 추천해준 주제를 가지고 **아이스브레이킹 성공!**
 **가상 메모리 분석에서 Stack, Heap, Text 영역은 어떻게 구분되고 각각 어떻게 분석하나요?**
 
 **답변:**
-
 - **Stack 영역**은 함수 호출 시 지역 변수나 리턴 주소 등을 저장하는 곳으로, pmap, vmmap, /proc/[PID]/maps 등의 명령어를 통해 분석할 수 있습니다.
 - **Heap 영역**은 런타임 시 동적으로 할당되는 메모리로, iOS에서는 Instruments의 Allocations, Leaks 도구로 분석하며, heaptrack이나 valgrind 등도 활용됩니다.
 - **Text 영역**은 코드 실행 부분으로, nm, objdump, vmmap 등을 통해 확인할 수 있습니다.이 외에도 공유 메모리나 스왑 영역, Dirty/Clean 페이지 등은 smem, vm_stat 등의 도구로 구체적인 분석이 가능합니다.
 
 **예상 꼬리질문**
-
 - Stack Overflow와 Heap Overflow의 차이는 무엇인가요?
 - 왜 Heap은 Fragmentation 문제가 발생하고 Stack은 그렇지 않은가요?
 
@@ -258,12 +254,9 @@ AI가 추천해준 주제를 가지고 **아이스브레이킹 성공!**
 
 **iOS에서 ARC 환경에서도 메모리 누수가 발생할 수 있다면, 그 예와 원인은 무엇인가요?**
 
-**답변**: ARC는 객체의 참조 횟수를 자동으로 관리하지만, “순환 참조(retain cycle)”가 발생하면 메모리 누수가 발생할 수 있습니다. 예를 들어, ViewController가 closure를 캡처하고 그 closure가 다시 ViewController를 참조할 때
-
-서로의 참조가 끊기지 않아 메모리에서 해제되지 않는 문제가 생깁니다. 이를 해결하기 위해 [weak self]나 [unowned self]를 사용해 순환 참조를 방지해야 합니다.
+**답변**: ARC는 객체의 참조 횟수를 자동으로 관리하지만, “순환 참조(retain cycle)”가 발생하면 메모리 누수가 발생할 수 있습니다. 예를 들어, ViewController가 closure를 캡처하고 그 closure가 다시 ViewController를 참조할 때 서로의 참조가 끊기지 않아 메모리에서 해제되지 않는 문제가 생깁니다. 이를 해결하기 위해 [weak self]나 [unowned self]를 사용해 순환 참조를 방지해야 합니다.
 
 **예상 꼬리질문**
-
 - weak와 unowned의 차이는 무엇인가요?
 - ARC 기반 메모리 관리는 GC(Garbage Collection)과 어떤 차이가 있나요?
 </details>
