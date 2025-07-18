@@ -193,6 +193,15 @@ AI가 추천해준 주제를 가지고 **아이스브레이킹 성공!**
 • 그 후, **학습 정리 파일에 이미지로 부착** <br>
 <br>
 
+<details>
+<summary>예시</summary>
+
+<img src="https://github.com/boostcampwm2025/relay-note43/blob/main/image.png?raw=true" width="500">
+
+• 가상 메모리의 페이징 기법에 관해서 만든 만화이다.
+
+</details>
+
 ### 🎯 4. 학습 내용을 기반으로 면접 질문 생성
 
 🧠 **배경 및 목적:**
