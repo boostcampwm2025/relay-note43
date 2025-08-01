@@ -251,6 +251,41 @@ Git add 명령의 동작 원리를 이해하기 위해 꼭 알아야 할 핵심 
 ---
 
 ### S002: 퀘스트 4 **학습 내용을 기반으로 모의 면접 진행하기**
+#### 진행방식
+1. 이번주에 학습한 내용 중 비동기 프로그래밍을 주제로 면접 질문을 생성
+2. 이전에 작성했던 이력서와 포트폴리오를 첨부하여 모의면접을 간단하게 진행
 
+<img width="800" height="244" alt="Image" src="https://github.com/user-attachments/assets/e72de8b7-dcb2-4786-9446-bd8b69d044a5" />
+
+> 프롬프트 작성
+
+<img width="800" height="543" alt="Image" src="https://github.com/user-attachments/assets/d74e5958-981e-4b0b-9f0f-c9abc882cf07" />
+
+> 첫번째 질문 & 답변 작성
+
+<img width="800" height="504" alt="Image" src="https://github.com/user-attachments/assets/e528cfbc-639a-4d99-ac2a-3d9335fe2aaf" />
+
+> 두번째 질문 & 답변 작성
+
+<img width="800" height="163" alt="Image" src="https://github.com/user-attachments/assets/ff8c1596-3a1a-410a-a1b3-068a2e4a55ee" />
+
+> 면접 답변에 대한 피드백 프롬프트 작성
+
+<img width="800" height="376" alt="Image" src="https://github.com/user-attachments/assets/a24ca782-f65c-4b58-be3f-5b49386b4cee" />
+
+> 첫번째 질문에 대한 답변 피드백
+
+<img width="800" height="376" alt="Image" src="https://github.com/user-attachments/assets/601e554f-8d6f-4f3b-969f-77285b213d31" />
+
+> 두번째 질문에 대한 답변 피드백
+
+<img width="800" height="285" alt="Image" src="https://github.com/user-attachments/assets/a794f1e0-f7c6-42e5-8fb3-53d228cb809b" />
+
+> 면접 총평??
+
+#### 💡 느낀 점 및 회고
+- 최근에 모의 면접을 진행할 때, 마이크를 활용하여 면접을 진행했는데, 대부분의 말은 잘 들었지만 완벽하게 이해를 못하는 상황이 발생하여 텍스트로 면접을 진행하였습니다.
+- 텍스트로 정리하여 보내는 방식으로 면접을 진행했는데, 아무래도 정리를 하면서 답변이 나오다보니 실제 면접에서 답변하는 긴장감(?) 은 들지 않았습니다.
+- 실제 말하는 연습을 하고 싶을 때는 마이크를 사용하는 것이 좋을것 같고, 면접에 대비하기 위한 질문 정리나 답변에 대한 순서를 정리하고 싶을 때는 텍스트를 사용하는 것이 좋을 것같다고 생각이 들었습니다.
 
 ---
