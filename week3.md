@@ -44,12 +44,47 @@
 ## 조사하기
 
 ### 학습 내용을 기반으로 모의 면접 더 잘 쓸 수 있는 방법이 뭐가 있을까?
+- 방법1. 페르소나 부여하기(역할 설정)
+- 방법2. 자신의 정보를 주입하기(백엔드 개발자, 자바스크립트 사용자 등)
+- 방법3. 학습 내용에 대한 근거가져오기(AI와 사람 둘 다)
+  
+#### 프롬프트
+```markdown
+목적: 면접 대비 및 개념 설명력 향상
+
+내가 공부한 내용은 아래에 정리돼 있어.
+이 내용을 바탕으로 모의 면접을 진행해줘. 아래의 조건을 반드시 따라줘.
+
+---
+[내 학습 정리 내용]
+<여기에 정리 내용을 붙여넣어줘>
+---
+
+역할 설정:
+너는 “면접관 역할”을 맡아.  
+면접관의 타입은 “고수 면접관” / “압박 면접관” / “모르는 친구” 중에서 무작위로 선택해 진행해줘.
+
+진행 흐름:
+1. 정리 내용을 바탕으로, 2~3개의 면접 질문을 순차적으로 출제해줘.
+2. 내가 답변하면, 답변에 대해 구조, 정확성, 표현력, 오해 가능성 등을 기준으로 상세 피드백을 줘.
+3. 그 후, 내 답변의 부족한 점 또는 연계 개념을 기반으로 “꼬리 질문”을 해줘.
+4. 내가 답하면, 반박 질문이나 실제 상황 기반 질문으로 확장해줘 (예: 실무 시나리오, 도구 사용, 오류 분석 등).
+5. 마지막엔 내가 놓친 개념/표현을 중심으로 전체 요약과 “오답노트” 항목을 제안해줘.
+
+ 주의할 점:
+- 내 답변이 틀리거나 애매하면 무조건 부드럽게 짚어주되, 왜 그런지를 꼭 설명해줘.
+- 너의 설명이 애매하거나 최신 정보가 아닌 경우, “검증 필요” 마크를 붙여줘.
+- 너의 설명을 확인할 수 있는 출처를 같이 표시해줘.(참고문헌 표시, 인용부분 표시)
+
+준비됐으면 질문부터 시작해줘
+```
+
 ### AI 만화에서 한글이 안깨지도록 대사를 만들게 할 수 있을까?
 - [ChatGPT 이미지 생성에서 한글 깨짐을 줄이고 완성도 높은 만화를 만드는 방법](https://tilnote.io/pages/67f59afb780f909dbb896df9)
   - GPT 만화 프롬프트 생성기를 활용해 만화 스타일, 컷수, 스토리 아이디어를 통해 프롬프트 생성
   - 생성된 프롬프트로 만화 생성
 
-- 생성된 프롬프트
+#### 프롬프트
 ```markdown
 Create a 4-panel comic in Studio Ghibli style, characterized by soft painterly textures, warm and nostalgic lighting, expressive character designs, and lush detailed backgrounds. The comic follows three characters: Dana, a calm and responsible 10-year-old girl with medium-length black hair in braids and wearing a yellow cardigan with a floral skirt; Shia, her cheerful 6-year-old sister with short brown hair and a pink dress with overalls; and Chamchi, a plump calico cat with a small red backpack. All characters must remain visually consistent across all panels.
 
@@ -59,15 +94,26 @@ Panel 4: The three sit at a tree stump table, happily eating cake together under
 Korean text (narration, top corner):
 “이 순간만큼은 세상에서 제일 달콤했어요.”
 ```
-- 프롬프트 실행 결과
+#### 프롬프트 실행 결과
 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/63c4de8f-9470-4e04-9fb9-c2400028155f" />
 
 ### 아하 모먼트 만화가 아닌 다른 방법으로 공유하는 방법이 뭐가 있을까?
+- 1. AI로 요약하고 쉽게 설명하기
+    이점: "초등학생도 이해할 수 있게 요약"을 하여 공유하고자 하는 정보를 보다 많은 사람들에게 공유할 수 있음.
+    단점: 공유하는 정보가 지나치게 "전문적"인 영역이라면, 쉽게 풀이하는 과정에서 내용의 본질이 흐려질 수 있음.
+
+- 2. AI가 만들어주는 시각 자료 (만화 제외)
+    이점: 숫자나 데이터가 많은 정보라면 "그래프/차트" 등을 제작하여 공유할 수 있음.
+
+- 3. AI 목소리로 듣는 정보
+    이점: 글로된 정보를 AI의 목소리 TTS로 바꿔서 오디오 파일로 변환하여 공유할 수 있음. (시각장애인에 대한 배려)
+    단점: 이어폰 또는 스피커와 같은 오디오를 듣기 위한 장비가 필요함, 또한 오디오를 재생해도 지장이 없는 적합한 장소여야함.
+
 ### 퀘스트 2에서 키워드 제한을 어떻게 활용하면 좋을까? 
-- 구체적인 프롬프팅 가이드를 제공하는 하면 좋을 것 같다.
+- 구체적인 프롬프팅 가이드를 제공하면 좋을 것 같다.
   
-- 프롬프팅 템플릿
+#### 프롬프팅 템플릿
   
 ```markdwon
 "다음 미션을 수행하는 데 필요한 핵심 CS 개념을 3-5개만 추천해주세요.
@@ -84,5 +130,6 @@ Korean text (narration, top corner):
 3. 비동기 처리 - Promise/async-await 패턴
 ```
 
-
 ## 퀘스트 제작하기
+
+
