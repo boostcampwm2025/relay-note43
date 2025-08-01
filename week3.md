@@ -63,9 +63,6 @@ Korean text (narration, top corner):
 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/63c4de8f-9470-4e04-9fb9-c2400028155f" />
 
-
-
-
 ### 아하 모먼트 만화가 아닌 다른 방법으로 공유하는 방법이 뭐가 있을까?
 ### 퀘스트 2에서 키워드 제한을 어떻게 활용하면 좋을까? 
 
