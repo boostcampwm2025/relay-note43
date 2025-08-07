@@ -1,4 +1,4 @@
-# 3주차 릴레이 프로젝트
+<img width="1280" height="805" alt="image" src="https://github.com/user-attachments/assets/b0d00e06-66e9-4ad2-894e-acd2ee5952cc" /># 3주차 릴레이 프로젝트
 
 ## 토론하기
 
@@ -270,4 +270,8 @@ Korean text (narration, top corner):
 
 ### 결과
 
+Session과 Connection의 차이를 정리하다가 릴레이 프로젝트가 생각나서 만화로 생성해보게 됐습니다. 아무래도 그림이 있다보니 글로된 문서를 읽는 것보다는 잘 읽혔고, AI가 핵심 개념만 추출해서 생성해주니 문서보다 빠르게 핵심 개념을 파악할 수 있었습니다. <br/>
+이런 방식은 추상적인 개념을 시각적으로 보여줘 빠르게 이해를 할 수 있게 돕는 것에 큰 도움을 주는 것 같습니다. 
+
+![퀘스트4 수행결과_J254](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbhFEyb%2FbtsPIft3mpS%2FAAAAAAAAAAAAAAAAAAAAAPtn32g7fKws430M0FfA0Lij-ZuU8LIo7v23AT5XvgNr%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1756652399%26allow_ip%3D%26allow_referer%3D%26signature%3DtvwjTz5hs59FHNuxwOnHgtY7QQY%253D)
 
