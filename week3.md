@@ -250,6 +250,7 @@ Korean text (narration, top corner):
 ### 선택한 이유
 - 학습한 내용을 만화로 표현하면 기억에 오래 남을 것 같고, 예시 이미지를 보니 좋은 퀄리티의 만화를 만들 수 있을 것 같아서 재미있을 것 같다.  
 ### 결과
+<img width="480" height="720" alt="image" src="https://github.com/user-attachments/assets/34a9e65a-2b4b-43b6-b181-d904e67b0bb4" />
 
 ---
 ## J144_송시호
